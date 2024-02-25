@@ -1067,3 +1067,30 @@ EventScript_VsSeekerChargingDone::
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/Alleyinbetween/scripts.inc"
+
+	.include "data/maps/ScarletGrotto/scripts.inc"
+
+	.include "data/maps/VioletCanyon/scripts.inc"
+
+	.include "data/maps/LegendCove1F/scripts.inc"
+
+	.include "data/maps/LegendCove2F/scripts.inc"
+
+	.include "data/maps/LegendCove3F/scripts.inc"
+
+	.include "data/maps/LegendCove4F/scripts.inc"
+
+	.include "data/maps/LegendCove5F/scripts.inc"
+
+
+	.include "data/maps/LegendCove6F/scripts.inc"
+
+	.include "data/maps/LegendCove7F/scripts.inc"
+
+	.include "data/maps/LegendCove8F/scripts.inc"
+
+	.include "data/maps/LegendCove9F/scripts.inc"
+
+	.include "data/maps/LegendCove10F/scripts.inc"
