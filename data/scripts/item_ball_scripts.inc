@@ -1,5 +1,5 @@
 Route102_EventScript_ItemPotion::
-	finditem ITEM_POTION
+	finditem ITEM_INFINITE_REPEL
 	end
 
 Route103_EventScript_ItemGuardSpec::

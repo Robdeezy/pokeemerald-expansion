@@ -5270,7 +5270,7 @@ static void Task_LearnedMove(u8 taskId)
 {
     struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
     s16 *move = &gPartyMenu.data1;
-    u16 item = gSpecialVar_ItemId;
+    //u16 item = gSpecialVar_ItemId;
 
     if (move[1] == 0)
     {

@@ -77,6 +77,15 @@ void SetBagItemsPointers(void)
 
     gBagPockets[BERRIES_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_Berries;
     gBagPockets[BERRIES_POCKET].capacity = BAG_BERRIES_COUNT;
+
+    gBagPockets[MEDICINE_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_Medicine;
+    gBagPockets[MEDICINE_POCKET].capacity = BAG_MEDICINE_COUNT;
+
+    gBagPockets[MEGASTONES_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_MegaStones;
+    gBagPockets[MEGASTONES_POCKET].capacity = BAG_MEGASTONES_COUNT;
+
+    gBagPockets[HELDITEMS_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_HeldItems;
+    gBagPockets[HELDITEMS_POCKET].capacity = BAG_HELDITEMS_COUNT;
 }
 
 void CopyItemName(u16 itemId, u8 *dst)
@@ -738,7 +747,7 @@ bool8 AddPyramidBagItem(u16 itemId, u16 count)
     u8 *quantities = gSaveBlock2Ptr->frontier.pyramidBag.quantity[gSaveBlock2Ptr->frontier.lvlMode];
 
     u16 *newItems = Alloc(PYRAMID_BAG_ITEMS_COUNT * sizeof(*newItems));
-    u8 *newQuantities = Alloc(PYRAMID_BAG_ITEMS_COUNT * sizeof(*newQuantities));
+    u16 *newQuantities = Alloc(PYRAMID_BAG_ITEMS_COUNT * sizeof(*newQuantities));
 
     memcpy(newItems, items, PYRAMID_BAG_ITEMS_COUNT * sizeof(*newItems));
     memcpy(newQuantities, quantities, PYRAMID_BAG_ITEMS_COUNT * sizeof(*newQuantities));

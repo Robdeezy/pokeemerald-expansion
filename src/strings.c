@@ -284,13 +284,19 @@ const u8 gText_PokeBallsPocket[] = _("POKé BALLS");
 const u8 gText_TMHMPocket[] = _("TMs & HMs");
 const u8 gText_BerriesPocket[] = _("BERRIES");
 const u8 gText_KeyItemsPocket[] = _("KEY ITEMS");
+const u8 gText_MedicinePocket[] = _("MEDICINE");
+const u8 gText_MegaStonesPocket[] = _("MEGA STONES");
+const u8 gText_HeldItemsPocket[] = _("HELD ITEMS");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
     [ITEMS_POCKET] = gText_ItemsPocket,
+    [MEDICINE_POCKET] = gText_MedicinePocket,
     [BALLS_POCKET] = gText_PokeBallsPocket,
-    [TMHM_POCKET]  = gText_TMHMPocket,
+    [MEGASTONES_POCKET] = gText_MegaStonesPocket,
     [BERRIES_POCKET] = gText_BerriesPocket,
+    [HELDITEMS_POCKET] = gText_HeldItemsPocket,
+    [TMHM_POCKET] = gText_TMHMPocket,
     [KEYITEMS_POCKET] = gText_KeyItemsPocket
 };
 
@@ -712,6 +718,9 @@ const u8 gText_Key_Items[] = _("KEY ITEMS");
 const u8 gText_Poke_Balls[] = _("POKé BALLS");
 const u8 gText_TMs_Hms[] = _("TMs & HMs");
 const u8 gText_Berries2[] = _("BERRIES");
+const u8 gText_Medicine[] = _("MEDICINE");
+const u8 gText_MegaStones[] = _("MEGA STONES");
+const u8 gText_HeldItems[] = _("HELD ITEMS");
 const u8 gText_SomeonesPC[] = _("SOMEONE'S PC");
 const u8 gText_LanettesPC[] = _("LANETTE'S PC");
 const u8 gText_PlayersPC[] = _("{PLAYER}'s PC");
@@ -806,7 +815,6 @@ const u8 gText_PyramidTrainers[] = _("PYRAMID: TRAINERS");
 const u8 gText_PyramidMaze[] = _("PYRAMID: MAZE");
 const u8 gText_BattleBag2[] = _("BATTLE BAG");
 const u8 gText_PokenavAndBag[] = _("POKéNAV AND BAG");
-const u8 gText_HeldItems[] = _("HELD ITEMS");
 const u8 gText_PokemonOrder[] = _("POKéMON ORDER");
 const u8 gText_BattlePokemon[] = _("BATTLE POKéMON");
 const u8 gText_BattleTrainers[] = _("BATTLE TRAINERS");
@@ -1843,3 +1851,5 @@ const u8 gText_Berries[] = _("BERRIES");
 const u8 gText_ExpShareOn[] = _("The Exp. Share has been turned on.{PAUSE_UNTIL_PRESS}");
 const u8 gText_ExpShareOff[] = _("The Exp. Share has been turned off.{PAUSE_UNTIL_PRESS}");
 const u8 gText_BasePointsResetToZero[] = _("{STR_VAR_1}'s base points\nwere all reset to zero!{PAUSE_UNTIL_PRESS}");
+const u8 gText_InfiniteRepelOn[] = _("The Infinite Repel is now ON!");
+const u8 gText_InfiniteRepelOff[] = _("The Infinite Repel is now OFF!");

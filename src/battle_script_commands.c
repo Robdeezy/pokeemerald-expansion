@@ -14966,7 +14966,7 @@ static void Cmd_handleballthrow(void)
                 maxShakes = BALL_3_SHAKES_SUCCESS;
             }
 
-            if (gLastUsedItem == ITEM_MASTER_BALL || gLastUsedItem == ITEM_SAFARI_BALL)
+            if (gLastUsedItem == ITEM_MASTER_BALL || gLastUsedItem == ITEM_SAFARI_BALL || gLastUsedItem == ITEM_POKE_BALL)
             {
                 shakes = maxShakes;
             }

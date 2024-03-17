@@ -3619,6 +3619,11 @@ static const u8 sCoinCaseDesc[] = _(
     "A case that holds\n"
     "up to 9,999 Coins.");
 
+static const u8 sInfiniteRepelDesc[] = _(
+    "Repels all wild\n"
+    "Pokémon for any\n"
+    "number of steps.");
+
 static const u8 sPowderJarDesc[] = _(
     "Stores Berry\n"
     "Powder made using\n"
