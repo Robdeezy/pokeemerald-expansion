@@ -161,7 +161,7 @@ const struct Item gItemsInfo[] =
     [ITEM_POKE_BALL] =
     {
         .name = _("Poké Ball"),
-        .price = 200,
+        .price = 1,
         .description = COMPOUND_STRING(
             "A tool used for\n"
             "catching wild\n"
@@ -1702,7 +1702,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Rare Candy"),
         .pluralName = _("Rare Candies"),
-        .price = (I_PRICE >= GEN_7) ? 10000 : 4800,
+        .price = (I_PRICE >= GEN_7) ? 1 : 1,
         .description = COMPOUND_STRING(
             "Raises the level\n"
             "of a Pokémon by\n"
