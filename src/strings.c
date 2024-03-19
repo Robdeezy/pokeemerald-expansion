@@ -1866,3 +1866,4 @@ const u8 gText_Fertilize[] = _("FERTILIZE");
 const u8 gText_PlantBerry[] = _("PLANT BERRY");
 const u8 gText_InfiniteRepelOn[] = _("The Infinite Repel is now ON!{PAUSE_UNTIL_PRESS}");
 const u8 gText_InfiniteRepelOff[] = _("The Infinite Repel is now OFF!{PAUSE_UNTIL_PRESS}");
+const u8 gText_Moves_Menu[] = _("Change Moves");

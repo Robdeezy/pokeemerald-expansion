@@ -3066,4 +3066,7 @@ extern const u8 gText_BasePointsResetToZero[];
 extern const u8 gText_Fertilize[];
 extern const u8 gText_PlantBerry[];
 
+// My added Consts
+extern const u8 gText_Moves_Menu[];
+
 #endif // GUARD_STRINGS_H
