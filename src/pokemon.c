@@ -11,6 +11,7 @@
 #include "battle_tower.h"
 #include "battle_z_move.h"
 #include "data.h"
+#include "daycare.h"
 #include "event_data.h"
 #include "evolution_scene.h"
 #include "field_specials.h"
@@ -5231,35 +5232,74 @@ u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
     u16 species = GetMonData(mon, MON_DATA_SPECIES, 0);
     u8 level = GetMonData(mon, MON_DATA_LEVEL, 0);
     const struct LevelUpMove *learnset = GetSpeciesLevelUpLearnset(species);
-    int i, j, k;
-
+    int i, j=0, k;
+        // writes currently known moves
     for (i = 0; i < MAX_MON_MOVES; i++)
         learnedMoves[i] = GetMonData(mon, MON_DATA_MOVE1 + i, 0);
+        
+    // Egg move tutor.
+	if (FlagGet(FLAG_EGG_MOVE_TUTOR))
+	{
+		// Species to pull egg moves from.
+		species = GetBaseForm(species);
 
-    for (i = 0; i < MAX_LEVEL_UP_MOVES; i++)
-    {
-        u16 moveLevel;
+		k = GetEggMovesArraySize() - 1;
 
-        if (learnset[i].move == LEVEL_UP_MOVE_END)
-            break;
+		// Here, j is being used as the offset into gEggMoves.
+		for (i = 0; i < k; i++)
+		{
+			if (gEggMoves[i] == species + EGG_MOVES_SPECIES_OFFSET)
+			{
+				j = i + 1;
+				break;
+			}
+		}
+    		// Validates the move not being learned already, as normal.
+		for (i = 0; i < EGG_MOVES_ARRAY_COUNT; i++)
+		{
+			if (gEggMoves[j + i] > EGG_MOVES_SPECIES_OFFSET)
+				break;
+			for (k = 0; k < MAX_MON_MOVES && learnedMoves[k] != gEggMoves[j + i]; k++)
+						;
 
-        moveLevel = learnset[i].level;
+        			if (k == MAX_MON_MOVES)
+				moves[numMoves++] = gEggMoves[j + i];
+		}
 
-        if (moveLevel <= level)
-        {
-            for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != learnset[i].move; j++)
-                ;
+        return numMoves;
+	}
+	// Level up move tutor
+	else
+	{
+		// for each entry in the mon's level up learnset:
+		for (i = 0; i < MAX_LEVEL_UP_MOVES; i++)
+		{
+			u16 moveLevel;
 
-            if (j == MAX_MON_MOVES)
-            {
-                for (k = 0; k < numMoves && moves[k] != learnset[i].move; k++)
-                    ;
+            			if (learnset[i].move == LEVEL_UP_MOVE_END)
+				break;
 
-                if (k == numMoves)
-                    moves[numMoves++] = learnset[i].move;
-            }
-        }
-    }
+                moveLevel = learnset[i].move & LEVEL_UP_MOVE_LV;
+                // if the move can be learned
+			if (moveLevel <= (level << 9))
+			{
+				// and the mon doesn't know the move already
+				for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != (learnset[i].move & LEVEL_UP_MOVE_ID); j++)
+					;
+
+				if (j == MAX_MON_MOVES)
+				{
+					// and the move isn't already in the list of moves to learn
+					for (k = 0; k < numMoves && moves[k] != (learnset[i].move & LEVEL_UP_MOVE_ID); k++)
+						;
+
+					// add the move to the array
+					if (k == numMoves)
+						moves[numMoves++] = learnset[i].move & LEVEL_UP_MOVE_ID;
+				}
+			}
+		}
+	}
 
     return numMoves;
 }
@@ -5284,38 +5324,77 @@ u8 GetNumberOfRelearnableMoves(struct Pokemon *mon)
     u16 species = GetMonData(mon, MON_DATA_SPECIES_OR_EGG, 0);
     u8 level = GetMonData(mon, MON_DATA_LEVEL, 0);
     const struct LevelUpMove *learnset = GetSpeciesLevelUpLearnset(species);
-    int i, j, k;
+    int i, j=0, k;
+    
 
     if (species == SPECIES_EGG)
         return 0;
 
     for (i = 0; i < MAX_MON_MOVES; i++)
         learnedMoves[i] = GetMonData(mon, MON_DATA_MOVE1 + i, 0);
+    // Egg move tutor.
+	if (FlagGet(FLAG_EGG_MOVE_TUTOR))
+	{
+		// Species to pull egg moves from.
+		species = GetBaseForm(species);
 
-    for (i = 0; i < MAX_LEVEL_UP_MOVES; i++)
-    {
-        u16 moveLevel;
+		k = GetEggMovesArraySize() - 1;
 
-        if (learnset[i].move == LEVEL_UP_MOVE_END)
-            break;
+		// Here, j is being used as the offset into gEggMoves.
+		for (i = 0; i < k; i++)
+		{
+		if (gEggMoves[i] == species + EGG_MOVES_SPECIES_OFFSET)
+			{
+				j = i + 1;
+				break;
+			}
+		}
+    		// Validates the move not being learned already, as normal.
+		for (i = 0; i < EGG_MOVES_ARRAY_COUNT; i++)
+		{
+		if (gEggMoves[j + i] > EGG_MOVES_SPECIES_OFFSET)
+				break;
+		for (k = 0; k < numMoves && learnedMoves[k] != gEggMoves[j + i]; k++)
+						;
 
-        moveLevel = learnset[i].level;
+        if (k == numMoves)
+				moves[numMoves++] = gEggMoves[j + i];
+		}
 
-        if (moveLevel <= level)
-        {
-            for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != learnset[i].move; j++)
-                ;
+        		return numMoves;
+	}
+	// Level up move tutor
+	else
+	{
+		// for each entry in the mon's level up learnset:
+	for (i = 0; i < MAX_LEVEL_UP_MOVES; i++)
+		{
+			u16 moveLevel;
 
-            if (j == MAX_MON_MOVES)
-            {
-                for (k = 0; k < numMoves && moves[k] != learnset[i].move; k++)
-                    ;
+            if (learnset[i].move == LEVEL_UP_MOVE_END)
+				break;
 
-                if (k == numMoves)
-                    moves[numMoves++] = learnset[i].move;
-            }
-        }
-    }
+                moveLevel = learnset[i].move & LEVEL_UP_MOVE_LV;
+                			// if the move can be learned
+			if (moveLevel <= (level << 9))
+			{
+				// and the mon doesn't know the move already
+				for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != (learnset[i].move & LEVEL_UP_MOVE_ID); j++)
+					;
+
+				if (j == MAX_MON_MOVES)
+				{
+					// and the move isn't already in the list of moves to learn
+					for (k = 0; k < numMoves && moves[k] != (learnset[i].move & LEVEL_UP_MOVE_ID); k++)
+						;
+
+					// add the move to the array
+					if (k == numMoves)
+						moves[numMoves++] = learnset[i].move & LEVEL_UP_MOVE_ID;
+				}
+			}
+		}
+	}
 
     return numMoves;
 }

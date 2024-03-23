@@ -685,6 +685,11 @@ static void DoMoveRelearnerMain(void)
 				CB2_ReturnToPartyMenuFromSummaryScreen();
 				FlagClear(FLAG_PARTY_MOVES);
 			}
+        if (FlagGet(FLAG_EGG_MOVE_TUTOR))
+			{
+				CB2_ReturnToPartyMenuFromSummaryScreen();
+				FlagClear(FLAG_EGG_MOVE_TUTOR);
+			}    
 		else
 			{
 				SetMainCallback2(CB2_ReturnToField);

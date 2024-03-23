@@ -8047,18 +8047,21 @@ static const struct TrainerMon sParty_Marc[] = {
     .iv = TRAINER_PARTY_IVS(25, 25, 25, 25, 25, 25),
     .lvl = 14,
     .species = SPECIES_NACLI,
+    .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_ROCK_THROW,MOVE_MUD_SHOT,MOVE_ROCK_POLISH}
     },
     {
     .iv = TRAINER_PARTY_IVS(25, 25, 25, 25, 25, 25),
     .lvl = 14,
     .species = SPECIES_ROLYCOLY,
+    .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_RAPID_SPIN,MOVE_SMOKESCREEN,MOVE_ANCIENT_POWER}
     },
     {
     .iv = TRAINER_PARTY_IVS(25, 25, 25, 25, 25, 25),
     .lvl = 14,
     .species = SPECIES_ROGGENROLA,
+    .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_MUD_SLAP,MOVE_SMACK_DOWN,MOVE_IRON_DEFENSE}
     }
 };
