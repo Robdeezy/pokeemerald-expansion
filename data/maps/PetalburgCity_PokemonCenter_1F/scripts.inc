@@ -94,3 +94,13 @@ PetalburgCity_PokemonCenter_1F_Text_MudkipIsWaterType:
 	.string "But, it's weak against GRASS-type\n"
 	.string "and ELECTRIC-type POKéMON.$"
 
+Status_NPC::
+    lockall
+    faceplayer
+    msgbox Status_NPC_Text_Box, MSGBOX_DEFAULT
+    goto Debug_EventScript_InflictStatus1
+    releaseall
+    end
+
+Status_NPC_Text_Box:
+    .string "Need to Status a Pokemon?$"

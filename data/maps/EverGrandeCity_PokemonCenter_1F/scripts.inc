@@ -100,3 +100,13 @@ EverGrandeCity_PokemonCenter_1F_Text_ScottHappyForYou:
 	.string "Okay, {PLAYER}{KUN}.\n"
 	.string "Go for greatness!$"
 
+Status_NPC::
+    lockall
+    faceplayer
+    msgbox Status_NPC_Text_Box, MSGBOX_DEFAULT
+    goto Debug_EventScript_InflictStatus1
+    releaseall
+    end
+
+Status_NPC_Text_Box:
+    .string "Need to Status a Pokemon?$"

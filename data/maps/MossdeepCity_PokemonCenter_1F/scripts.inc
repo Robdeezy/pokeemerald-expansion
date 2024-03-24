@@ -36,3 +36,13 @@ MossdeepCity_PokemonCenter_1F_Text_AbilitiesMightChangeMoves:
 	.string "POKéMON, some moves might change\l"
 	.string "or not work at all.$"
 
+Status_NPC::
+    lockall
+    faceplayer
+    msgbox Status_NPC_Text_Box, MSGBOX_DEFAULT
+    goto Debug_EventScript_InflictStatus1
+    releaseall
+    end
+
+Status_NPC_Text_Box:
+    .string "Need to Status a Pokemon?$"

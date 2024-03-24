@@ -48,3 +48,13 @@ PacifidlogTown_PokemonCenter_1F_Text_AncestorsLivedOnBoats:
 	.string "because they were searching for\l"
 	.string "something.$"
 
+Status_NPC::
+    lockall
+    faceplayer
+    msgbox Status_NPC_Text_Box, MSGBOX_DEFAULT
+    goto Debug_EventScript_InflictStatus1
+    releaseall
+    end
+
+Status_NPC_Text_Box:
+    .string "Need to Status a Pokemon?$"

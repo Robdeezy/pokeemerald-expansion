@@ -47,3 +47,13 @@ RustboroCity_PokemonCenter_1F_Text_HMCutNextDoor:
 	.string "I used it to teach my POKéMON how to\n"
 	.string "CUT down skinny trees.$"
 
+Status_NPC::
+    lockall
+    faceplayer
+    msgbox Status_NPC_Text_Box, MSGBOX_DEFAULT
+    goto Debug_EventScript_InflictStatus1
+    releaseall
+    end
+
+Status_NPC_Text_Box:
+    .string "Need to Status a Pokemon?$"
