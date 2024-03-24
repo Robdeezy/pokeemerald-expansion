@@ -47,13 +47,3 @@ LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
 	.string "the hot springs from here.\p"
 	.string "If POKéMON are getting rest, so too\n"
 	.string "should their TRAINERS.$"
-Status_NPC::
-    lockall
-    faceplayer
-    msgbox Status_NPC_Text_Box, MSGBOX_DEFAULT
-    goto Debug_EventScript_InflictStatus1
-    releaseall
-    end
-
-Status_NPC_Text_Box:
-    .string "Need to Status a Pokemon?$"

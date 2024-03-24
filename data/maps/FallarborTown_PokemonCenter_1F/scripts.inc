@@ -111,14 +111,3 @@ FallarborTown_PokemonCenter_1F_Text_PlantHardyTrees:
 	.string "In the fields of FALLARBOR, we plant\n"
 	.string "seedlings of hardy trees that thrive\l"
 	.string "even in volcanic ash.$"
-
-Status_NPC::
-    lockall
-    faceplayer
-    msgbox Status_NPC_Text_Box, MSGBOX_DEFAULT
-    goto Debug_EventScript_InflictStatus1
-    releaseall
-    end
-
-Status_NPC_Text_Box:
-    .string "Need to Status a Pokemon?$"

@@ -41,14 +41,3 @@ VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent:
 	.string "saying.\p"
 	.string "Or is there somebody here that you\n"
 	.string "came to see?$"
-
-Status_NPC::
-    lockall
-    faceplayer
-    msgbox Status_NPC_Text_Box, MSGBOX_DEFAULT
-    goto Debug_EventScript_InflictStatus1
-    releaseall
-    end
-
-Status_NPC_Text_Box:
-    .string "Need to Status a Pokemon?$"

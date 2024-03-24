@@ -69,14 +69,3 @@ SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon:
 SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
 	.string "Aren't POKéMON our friends?\p"
 	.string "Why are they going wild this way?$"
-
-Status_NPC::
-    lockall
-    faceplayer
-    msgbox Status_NPC_Text_Box, MSGBOX_DEFAULT
-    goto Debug_EventScript_InflictStatus1
-    releaseall
-    end
-
-Status_NPC_Text_Box:
-    .string "Need to Status a Pokemon?$"

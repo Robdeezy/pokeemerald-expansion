@@ -36,14 +36,3 @@ DewfordTown_PokemonCenter_1F_Text_FaintedMonCanUseHM:
 	.string "Even if a POKéMON faints and can't\n"
 	.string "battle, it can still use a move learned\l"
 	.string "from a HIDDEN MACHINE (HM).$"
-
-Status_NPC::
-    lockall
-    faceplayer
-    msgbox Status_NPC_Text_Box, MSGBOX_DEFAULT
-    goto Debug_EventScript_InflictStatus1
-    releaseall
-    end
-
-Status_NPC_Text_Box:
-    .string "Need to Status a Pokemon?$"
