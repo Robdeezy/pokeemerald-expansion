@@ -167,8 +167,26 @@ struct UCoords32
     u32 y;
 };
 
+struct ItemSlot
+{
+    u16 itemId;
+    u16 quantity;
+};
+
+struct Pokeblock
+{
+    u8 color;
+    u8 spicy;
+    u8 dry;
+    u8 sweet;
+    u8 bitter;
+    u8 sour;
+    u8 feel;
+};
+
 struct SaveBlock3
 {
+    /*0x790*/ struct ItemSlot bagPocket_HeldItems[BAG_HELDITEMS_COUNT]; 
 };
 
 extern struct SaveBlock3 *gSaveBlock3Ptr;
@@ -576,22 +594,6 @@ struct WarpData
     s16 x, y;
 };
 
-struct ItemSlot
-{
-    u16 itemId;
-    u16 quantity;
-};
-
-struct Pokeblock
-{
-    u8 color;
-    u8 spicy;
-    u8 dry;
-    u8 sweet;
-    u8 bitter;
-    u8 sour;
-    u8 feel;
-};
 
 struct Roamer
 {
@@ -990,7 +992,7 @@ struct SaveBlock1
     /*0x235*/ //u8 padding2[3];
     /*0x238*/ struct Pokemon playerParty[PARTY_SIZE];
     /*0x490*/ u32 money;
-    /*0x494*/ u16 coins;
+    /*0x494*/ u16 coins; 
     /*0x496*/ u16 registeredItem; // registered for use with SELECT button
     /*0x498*/ struct ItemSlot pcItems[PC_ITEMS_COUNT];
     /*0x560*/ struct ItemSlot bagPocket_Items[BAG_ITEMS_COUNT];
@@ -1000,7 +1002,6 @@ struct SaveBlock1
     /*0x790*/ struct ItemSlot bagPocket_Berries[BAG_BERRIES_COUNT];
     /*0x790*/ struct ItemSlot bagPocket_Medicine[BAG_MEDICINE_COUNT];
     /*0x790*/ struct ItemSlot bagPocket_MegaStones[BAG_MEGASTONES_COUNT];
-    /*0x790*/ struct ItemSlot bagPocket_HeldItems[BAG_HELDITEMS_COUNT];
     /*0x848*/ struct Pokeblock pokeblocks[POKEBLOCKS_COUNT];
 #if FREE_EXTRA_SEEN_FLAGS_SAVEBLOCK1 == FALSE
     /*0x988*/ u8 filler1[0x34]; // Previously Dex Flags, feel free to remove.

@@ -264,7 +264,7 @@ void LoadPlayerBag(void)
 
     // load player Held Items.
     for (i = 0; i < BAG_HELDITEMS_COUNT; i++)
-        gLoadedSaveData.heldItems[i] = gSaveBlock1Ptr->bagPocket_HeldItems[i];
+        gLoadedSaveData.heldItems[i] = gSaveBlock3Ptr->bagPocket_HeldItems[i];
 
     gLastEncryptionKey = gSaveBlock2Ptr->encryptionKey;
 }
@@ -308,7 +308,7 @@ void SavePlayerBag(void)
 
     // save player Held Items.
     for (i = 0; i < BAG_HELDITEMS_COUNT; i++)
-        gSaveBlock1Ptr->bagPocket_HeldItems[i] = gLoadedSaveData.heldItems[i];
+        gSaveBlock3Ptr->bagPocket_HeldItems[i] = gLoadedSaveData.heldItems[i];
 
     encryptionKeyBackup = gSaveBlock2Ptr->encryptionKey;
     gSaveBlock2Ptr->encryptionKey = gLastEncryptionKey;
