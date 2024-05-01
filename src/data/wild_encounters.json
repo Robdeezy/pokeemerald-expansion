@@ -442,12 +442,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PARAS"
+                "species": "SPECIES_WEEDLE"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WEEDLE"
+                "species": "SPECIES_PARAS"
               },
               {
                 "min_level": 5,
@@ -1900,7 +1900,7 @@
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_PATRAT"
+                "species": "SPECIES_GEODUDE"
               },
               {
                 "min_level": 14,
@@ -1930,7 +1930,7 @@
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_PATRAT"
               },
               {
                 "min_level": 14,
@@ -5168,7 +5168,7 @@
               {
                 "min_level": 70,
                 "max_level": 70,
-                "species": "SPECIES_DURALUDON"
+                "species": "SPECIES_ARCHALUDON"
               },
               {
                 "min_level": 70,
@@ -9343,7 +9343,7 @@
               {
                 "min_level": 55,
                 "max_level": 55,
-                "species": "SPECIES_DURALUDON"
+                "species": "SPECIES_ARCHALUDON"
               },
               {
                 "min_level": 55,
@@ -12641,6 +12641,70 @@
                 "min_level": 90,
                 "max_level": 90,
                 "species": "SPECIES_DARKRAI"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_MAUVILLE_CITY",
+          "base_label": "gMauvilleCity0",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_APPLIN"
+              },
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_DURALUDON"
+              },
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_PIKACHU"
+              },
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_NACLI"
+              },
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_PAWNIARD"
+              },
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_MANKEY"
+              },
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_WATTREL"
+              },
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_WATTREL"
+              },
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_POLTCHAGEIST"
+              },
+              {
+                "min_level": 20,
+                "max_level": 20,
+                "species": "SPECIES_POLTCHAGEIST"
               }
             ]
           }
