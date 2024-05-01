@@ -23,6 +23,9 @@
 // Prevent cross-jump optimization.
 #define BLOCK_CROSS_JUMP asm("");
 
+//tx_registered_items_menu
+#define REGISTERED_ITEMS_MAX 10
+
 // to help in decompiling
 #define asm_unified(x) asm(".syntax unified\n" x "\n.syntax divided")
 #define NAKED __attribute__((naked))
@@ -182,6 +185,11 @@ struct Pokeblock
     u8 bitter;
     u8 sour;
     u8 feel;
+};
+
+struct RegisteredItemSlot
+{
+    u16 itemId;
 };
 
 struct SaveBlock3
@@ -993,7 +1001,10 @@ struct SaveBlock1
     /*0x238*/ struct Pokemon playerParty[PARTY_SIZE];
     /*0x490*/ u32 money;
     /*0x494*/ u16 coins; 
-    /*0x496*/ u16 registeredItem; // registered for use with SELECT button
+    //u16 registeredItem;  registered for use with SELECT button
+    /*0x???*/ u8 registeredItemLastSelected:4; //max 16 items
+    /*0x???*/ u8 registeredItemListCount:4;
+    /*0x???*/ struct RegisteredItemSlot registeredItems[REGISTERED_ITEMS_MAX];
     /*0x498*/ struct ItemSlot pcItems[PC_ITEMS_COUNT];
     /*0x560*/ struct ItemSlot bagPocket_Items[BAG_ITEMS_COUNT];
     /*0x5D8*/ struct ItemSlot bagPocket_KeyItems[BAG_KEYITEMS_COUNT];
@@ -1004,7 +1015,7 @@ struct SaveBlock1
     /*0x790*/ struct ItemSlot bagPocket_MegaStones[BAG_MEGASTONES_COUNT];
     /*0x848*/ struct Pokeblock pokeblocks[POKEBLOCKS_COUNT];
 #if FREE_EXTRA_SEEN_FLAGS_SAVEBLOCK1 == FALSE
-    /*0x988*/ u8 filler1[0x34]; // Previously Dex Flags, feel free to remove.
+    /*0x988*/ u8 filler1[0x124]; // Previously Dex Flags, feel free to remove.
 #endif //FREE_EXTRA_SEEN_FLAGS_SAVEBLOCK1
     /*0x9BC*/ u16 berryBlenderRecords[3];
     /*0x9C2*/ u8 unused_9C2[6];
