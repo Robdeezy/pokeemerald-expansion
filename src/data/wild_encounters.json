@@ -11832,12 +11832,12 @@
               {
                 "min_level": 80,
                 "max_level": 80,
-                "species": "SPECIES_WALKING_WAKE"
+                "species": "SPECIES_RAGING_BOLT"
               },
               {
-                "min_level": 5,
+                "min_level": 80,
                 "max_level": 80,
-                "species": "SPECIES_POIPOLE"
+                "species": "SPECIES_GOUGING_FIRE"
               },
               {
                 "min_level": 5,
@@ -11896,12 +11896,12 @@
               {
                 "min_level": 80,
                 "max_level": 80,
-                "species": "SPECIES_IRON_LEAVES"
+                "species": "SPECIES_IRON_CROWN"
               },
               {
-                "min_level": 5,
+                "min_level": 80,
                 "max_level": 80,
-                "species": "SPECIES_POIPOLE"
+                "species": "SPECIES_IRON_BOULDER"
               },
               {
                 "min_level": 5,
