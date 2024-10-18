@@ -3,7 +3,7 @@
 
 ASSUMPTIONS
 {
-    ASSUME(MoveHasAdditionalEffect(MOVE_THOUSAND_ARROWS, MOVE_EFFECT_SMACK_DOWN) == TRUE);
+    ASSUME(gMovesInfo[MOVE_THOUSAND_ARROWS].additionalEffects->moveEffect == MOVE_EFFECT_SMACK_DOWN);
     ASSUME(gMovesInfo[MOVE_THOUSAND_ARROWS].ignoreTypeIfFlyingAndUngrounded == TRUE);
 }
 
@@ -41,7 +41,7 @@ SINGLE_BATTLE_TEST("Thousand Arrows does neutral damage to non-grounded Flying t
         }
         ANIMATION(ANIM_TYPE_MOVE, MOVE_CELEBRATE, opponent);
         MESSAGE("Congratulations, 1!");
-        MESSAGE("Wobbuffet used Thousand Arrows!");
+        MESSAGE("Wobbuffet used ThousndArrws!");
         ANIMATION(ANIM_TYPE_MOVE, MOVE_THOUSAND_ARROWS, player);
         if (pokemon == SPECIES_SKARMORY)
         {

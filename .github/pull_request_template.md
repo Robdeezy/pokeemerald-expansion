@@ -21,5 +21,5 @@
 <!-- If it doesn't apply, feel free to remove this section. -->
 
 ## **Discord contact info**
-<!--- Formatted as username (e.g. Lunos) or username#numbers (e.g. Lunos#4026) -->
+<!--- formatted as name#numbers, e.g. Lunos#4026 -->
 <!--- Contributors must join https://discord.gg/6CzjAG6GZk -->

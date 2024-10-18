@@ -50,10 +50,10 @@ SINGLE_BATTLE_TEST("Tangling Hair does not cause Rocky Helmet miss activation")
     }
 }
 
-SINGLE_BATTLE_TEST("Tangling Hair Speed stat drop triggers defiant and keeps original attacker/target")
+SINGLE_BATTLE_TEST("Tangling Hair Speed stat drop triggers defiant")
 {
     GIVEN {
-        PLAYER(SPECIES_DUGTRIO) { Ability(ABILITY_TANGLING_HAIR); Item(ITEM_ROCKY_HELMET); }
+        PLAYER(SPECIES_DUGTRIO) { Ability(ABILITY_TANGLING_HAIR); }
         OPPONENT(SPECIES_PAWNIARD) { Ability(ABILITY_DEFIANT); }
     } WHEN {
         TURN { MOVE(opponent, MOVE_TACKLE); }
@@ -64,7 +64,5 @@ SINGLE_BATTLE_TEST("Tangling Hair Speed stat drop triggers defiant and keeps ori
         MESSAGE("Foe Pawniard's Speed fell!");
         ABILITY_POPUP(opponent, ABILITY_DEFIANT);
         MESSAGE("Foe Pawniard's Attack sharply rose!");
-        ANIMATION(ANIM_TYPE_GENERAL, B_ANIM_HELD_ITEM_EFFECT, player);
-        MESSAGE("Foe Pawniard was hurt by Dugtrio's Rocky Helmet!");
     }
 }

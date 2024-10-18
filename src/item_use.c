@@ -430,42 +430,45 @@ static bool8 IsHiddenItemPresentAtCoords(const struct MapEvents *events, s16 x, 
 
 static bool8 IsHiddenItemPresentInConnection(const struct MapConnection *connection, int x, int y)
 {
-    s16 connectionX, connectionY;
-    struct MapHeader const *const connectionHeader = GetMapHeaderFromConnection(connection);
 
-// To convert our x/y into coordinates that are relative to the connected map, we must:
-//  - Subtract the virtual offset used for the border buffer (MAP_OFFSET).
-//  - Subtract the horizontal offset between North/South connections, or the vertical offset for East/West
-//  - Account for map size. (0,0) is in the NW corner of our map, so when looking North/West we have to add the height/width of the connected map,
-//     and when looking South/East we have to subtract the height/width of our current map.
-#define localX (x - MAP_OFFSET)
-#define localY (y - MAP_OFFSET)
+    u16 localX, localY;
+    u32 localOffset;
+    s32 localLength;
+
+    struct MapHeader const *const mapHeader = GetMapHeaderFromConnection(connection);
+
     switch (connection->direction)
     {
+    // same weird temp variable behavior seen in IsHiddenItemPresentAtCoords
     case CONNECTION_NORTH:
-        connectionX = localX - connection->offset;
-        connectionY = connectionHeader->mapLayout->height + localY;
+        localOffset = connection->offset + MAP_OFFSET;
+        localX = x - localOffset;
+        localLength = mapHeader->mapLayout->height - MAP_OFFSET;
+        localY = localLength + y; // additions are reversed for some reason
         break;
     case CONNECTION_SOUTH:
-        connectionX = localX - connection->offset;
-        connectionY = localY - gMapHeader.mapLayout->height;
+        localOffset = connection->offset + MAP_OFFSET;
+        localX = x - localOffset;
+        localLength = gMapHeader.mapLayout->height + MAP_OFFSET;
+        localY = y - localLength;
         break;
     case CONNECTION_WEST:
-        connectionX = connectionHeader->mapLayout->width + localX;
-        connectionY = localY - connection->offset;
+        localLength = mapHeader->mapLayout->width - MAP_OFFSET;
+        localX = localLength + x; // additions are reversed for some reason
+        localOffset = connection->offset + MAP_OFFSET;
+        localY = y - localOffset;
         break;
     case CONNECTION_EAST:
-        connectionX = localX - gMapHeader.mapLayout->width;
-        connectionY = localY - connection->offset;
+        localLength = gMapHeader.mapLayout->width + MAP_OFFSET;
+        localX = x - localLength;
+        localOffset = connection->offset + MAP_OFFSET;
+        localY = y - localOffset;
         break;
     default:
         return FALSE;
     }
-    return IsHiddenItemPresentAtCoords(connectionHeader->events, connectionX, connectionY);
+    return IsHiddenItemPresentAtCoords(mapHeader->events, localX, localY);
 }
-
-#undef localX
-#undef localY
 
 static void CheckForHiddenItemsInMapConnection(u8 taskId)
 {
@@ -1518,7 +1521,7 @@ void FieldUseFunc_VsSeeker(u8 taskId)
         SetUpItemUseOnFieldCallback(taskId);
     }
     else
-        DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
+        DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].data[3]);
 }
 
 void Task_ItemUse_CloseMessageBoxAndReturnToField_VsSeeker(u8 taskId)

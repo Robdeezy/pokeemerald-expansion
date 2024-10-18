@@ -182,8 +182,8 @@ void NewGameInitData(void)
     gPlayerPartyCount = 0;
     ZeroPlayerPartyMons();
     ResetPokemonStorageSystem();
-    DeactivateAllRoamers();
-    gSaveBlock1Ptr->registeredItem = ITEM_NONE;
+    ClearRoamerData();
+    ClearRoamerLocationData();
     ClearBag();
     NewGameInitPCItems();
     TxRegItemsMenu_RegisteredItemsMenuNewGame();
