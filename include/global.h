@@ -178,12 +178,34 @@ struct Time
     /*0x04*/ s8 seconds;
 };
 
+struct ItemSlot
+{
+    u16 itemId;
+    u16 quantity;
+};
+
+struct Pokeblock
+{
+    u8 color;
+    u8 spicy;
+    u8 dry;
+    u8 sweet;
+    u8 bitter;
+    u8 sour;
+    u8 feel;
+};
+
+struct RegisteredItemSlot
+{
+    u16 itemId;
+};
 
 struct SaveBlock3
 {
 #if OW_USE_FAKE_RTC
     struct Time fakeRTC;
 #endif
+/*0x790*/ struct ItemSlot bagPocket_HeldItems[BAG_HELDITEMS_COUNT];
 };
 
 extern struct SaveBlock3 *gSaveBlock3Ptr;
