@@ -5566,6 +5566,8 @@ u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
     u16 species = GetMonData(mon, MON_DATA_SPECIES, 0);
     u8 level = GetMonData(mon, MON_DATA_LEVEL, 0);
     const struct LevelUpMove *learnset = GetSpeciesLevelUpLearnset(species);
+    u16 numEggMoves
+    u16 EggMoves
     int i, j=0, k;
         // writes currently known moves
     for (i = 0; i < MAX_MON_MOVES; i++)
@@ -5577,27 +5579,32 @@ u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
 		// Species to pull egg moves from.
 		species = GetBaseForm(species);
 
-		k = GetEggMovesArraySize() - 1;
+		numEggMoves = GetEggMovesBySpecies(species, EggMoves);
 
-		// Here, j is being used as the offset into gEggMoves.
-		for (i = 0; i < k; i++)
+		// for each entry in the mon's level up learnset:
+		for (i = 0; i < numEggMoves; i++)
 		{
-			if (gEggMoves[i] == species + EGG_MOVES_SPECIES_OFFSET)
-			{
-				j = i + 1;
-				break;
-			}
-		}
-    		// Validates the move not being learned already, as normal.
-		for (i = 0; i < EGG_MOVES_ARRAY_COUNT; i++)
-		{
-			if (gEggMoves[j + i] > EGG_MOVES_SPECIES_OFFSET)
-				break;
-			for (k = 0; k < MAX_MON_MOVES && learnedMoves[k] != gEggMoves[j + i]; k++)
-						;
+			u16 moveLevel;
 
-        			if (k == MAX_MON_MOVES)
-				moves[numMoves++] = gEggMoves[j + i];
+            if (EggMoves[i].move == MOVE_UNAVAILABLE)
+				break;
+
+                
+            // and the mon doesn't know the move already
+            for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != (EggMoves[i].move); j++)
+                ;
+
+            if (j == MAX_MON_MOVES)
+            {
+                // and the move isn't already in the list of moves to learn
+                for (k = 0; k < numMoves && moves[k] != (learnset[i].move & LEVEL_UP_MOVE_ID); k++)
+                    ;
+
+                // add the move to the array
+                if (k == numMoves)
+                    moves[numMoves++] = learnset[i].move & LEVEL_UP_MOVE_ID;
+            }
+			
 		}
 
         return numMoves;
@@ -5610,12 +5617,12 @@ u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
 		{
 			u16 moveLevel;
 
-            			if (learnset[i].move == LEVEL_UP_MOVE_END)
+            if (learnset[i].move == LEVEL_UP_MOVE_END)
 				break;
 
                 moveLevel = learnset[i].move & LEVEL_UP_MOVE_LV;
                 // if the move can be learned
-			if (moveLevel <= (level << 9))
+			if (moveLevel <=  level)
 			{
 				// and the mon doesn't know the move already
 				for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != (learnset[i].move & LEVEL_UP_MOVE_ID); j++)

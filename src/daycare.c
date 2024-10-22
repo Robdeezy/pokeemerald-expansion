@@ -34,7 +34,6 @@ static void SetInitialEggData(struct Pokemon *mon, u16 species, struct DayCare *
 static void DaycarePrintMonInfo(u8 windowId, u32 daycareSlotId, u8 y);
 static u8 ModifyBreedingScoreForOvalCharm(u8 score);
 static u8 GetEggMoves(struct Pokemon *pokemon, u16 *eggMoves);
-static u16 GetEggSpecies(u16 species);
 
 // RAM buffers used to assist with BuildEggMoveset()
 EWRAM_DATA static u16 sHatchedEggLevelUpMoves[EGG_LVL_UP_MOVES_ARRAY_COUNT] = {0};
@@ -195,7 +194,7 @@ static void TransferEggMoves(void)
     for (i = 0; i < DAYCARE_MON_COUNT; i++)
     {
         u16 moveLearnerSpecies = GetBoxMonData(&gSaveBlock1Ptr->daycare.mons[i].mon, MON_DATA_SPECIES);
-        u16 eggSpecies = GetEggSpecies(moveLearnerSpecies);
+        u16 eggSpecies = GetBaseForm(moveLearnerSpecies);
 
         if (!GetBoxMonData(&gSaveBlock1Ptr->daycare.mons[i].mon, MON_DATA_SANITY_HAS_SPECIES))
             continue;
@@ -478,7 +477,7 @@ static void UNUSED ClearAllDaycareData(struct DayCare *daycare)
 // Determines what the species of an Egg would be based on the given species.
 // It determines this by working backwards through the evolution chain of the
 // given species.
-u16 GetEggSpecies(u16 species)
+u16 GetBaseForm(u16 species)
 {
     int i, j, k;
     bool8 found;
@@ -1017,7 +1016,7 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
         }
     }
 
-    eggSpecies = GetEggSpecies(species[parentSlots[0]]);
+    eggSpecies = GetBaseForm(species[parentSlots[0]]);
     if (eggSpecies == SPECIES_NIDORAN_F && daycare->offspringPersonality & EGG_GENDER_MALE)
         eggSpecies = SPECIES_NIDORAN_M;
     else if (eggSpecies == SPECIES_ILLUMISE && daycare->offspringPersonality & EGG_GENDER_MALE)
