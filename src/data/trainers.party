@@ -6587,9 +6587,37 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Aron
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tauros @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Raging Bull
+- Giga Impact
+- Swagger
+- Wild Charge
+
+Tauros-Paldea-Blaze  @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Raging Bull
+- Stomping Tantrum
+- Stone Edge
+- Wild Charge
+
+Tauros-Paldea-Aqua @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Raging Bull
+- Iron Head
+- Zen Headbutt
+- Wild Charge
+
+Tauros-Paldea-Combat @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Raging Bull
+- Earthquake
+- Rock Silde
+- Wild Charge
 
 === TRAINER_CALVIN_2 ===
 Name: CALVIN
@@ -8408,29 +8436,37 @@ Gender: Male
 Music: Suspicious
 Double Battle: No
 
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Smog
-- Self Destruct
+Weezing @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Explosion
+- Heat Wave
+- Thunderbolt
 
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Smog
-- Self Destruct
+Pyroar @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Overheat
+- Hyper Voice
+- Psychic Fangs
+- Hyper Beam
 
-Koffing
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas
-- Tackle
-- Sludge
-- Self Destruct
+Cofagrigus @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Curse
+- Dark Pulse
+- Destiny Bond
+
+Greninja @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Waterfall
+- Night Slash
+- Acrobatics
+- Trailblaze
 
 === TRAINER_LUNG ===
 Name: LUNG
@@ -8768,13 +8804,37 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Ember
-- Tackle
-- Magnitude
-- Sunny Day
+Shiftry @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Leaf Blade
+- Rock Slide
+- Acrobatics
+- Toxic Spikes
+
+Venusaur @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Venoshock
+- Giga Drain
+- Leech Seed
+- Earth Power
+
+Torterra @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Seed Bomb
+- Zen Headbutt
+- Body Press
+
+Ludicolo @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fake Out
+- Giga Drain
+- Scald
+- Ice Beam
 
 === TRAINER_CLARISSA ===
 Name: CLARISSA
@@ -10448,7 +10508,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Treecko
+Sprigatito
 Level: 5
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -10489,12 +10549,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Hammer Arm
 - Ancient Power
 
-Grovyle @ Berry Juice
+Floragato @ Berry Juice
 Level: 29
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Giga Drain
-- Dragon Breath
-- Vacuum Wave
+- Seed Bomb
+- Play Rough
+- U Turn
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
@@ -10526,7 +10586,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
-Torchic
+Fuecoco
 Level: 5
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -10567,12 +10627,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Hammer Arm
 - Ancient Power
 
-Combusken @ Berry Juice
+Crocalor @ Berry Juice
 Level: 29
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Blaze Kick
-- Bounce
-- Thunder Punch
+- Flamethrower
+- Hyper Voice
+- Dig
 
 === TRAINER_BRENDAN_ROUTE_119_TREECKO ===
 Name: BRENDAN
@@ -10604,7 +10664,7 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Mudkip
+Quaxly
 Level: 5
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -10645,12 +10705,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sleep Powder
 - Draining Kiss
 
-Marshtomp @ Berry Juice
+Quaxwell @ Berry Juice
 Level: 29
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Waterfall
-- Bulldoze
-- Avalanche
+- Liquidation
+- Acrobatics
+- Brick Break
 
 === TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
 Name: BRENDAN
@@ -10682,7 +10742,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Treecko
+Sprigatito
 Level: 5
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -10723,12 +10783,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Hammer Arm
 - Ancient Power
 
-Grovyle @ Berry Juice
+Floragato @ Berry Juice
 Level: 29
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Giga Drain
-- Dragon Breath
-- Vacuum Wave
+- Seed Bomb
+- Play Rough
+- U Turn
 
 === TRAINER_MAY_ROUTE_119_MUDKIP ===
 Name: MAY
@@ -10760,7 +10820,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Torchic
+Fuecoco
 Level: 5
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -10801,12 +10861,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Hammer Arm
 - Ancient Power
 
-Combusken @ Berry Juice
+Crocalor @ Berry Juice
 Level: 29
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Blaze Kick
-- Bounce
-- Thunder Punch
+- Flamethrower
+- Hyper Voice
+- Dig
 
 === TRAINER_MAY_ROUTE_119_TREECKO ===
 Name: MAY
@@ -10838,7 +10898,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Mudkip
+Quaxly
 Level: 5
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -10879,12 +10939,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sleep Powder
 - Draining Kiss
 
-Marshtomp @ Berry Juice
+Quaxwell @ Berry Juice
 Level: 29
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Waterfall
-- Bulldoze
-- Avalanche
+- Liquidation
+- Acrobatics
+- Brick Break
 
 === TRAINER_MAY_ROUTE_119_TORCHIC ===
 Name: MAY
@@ -12013,12 +12073,12 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Tornado
 - Round
 
-Combusken @ Berry Juice
+Crocalor @ Berry Juice
 Level: 22
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Slash
-- Flame Charge
+- Disarming Voice
+- Snarl
+- Incinerate
 
 === TRAINER_BRENDAN_RUSTBORO_MUDKIP ===
 Name: BRENDAN
@@ -12050,11 +12110,11 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bounce
 - Play Rough
 
-Grovyle @ Berry Juice
+Floragato @ Berry Juice
 Level: 22
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Slam
+- Seed Bomb
+- Slash
 - Aerial Ace
 
 === TRAINER_PAXTON ===
@@ -12177,12 +12237,12 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Tornado
 - Round
 
-Marshtomp @ Berry Juice
+Quaxwell @ Berry Juice
 Level: 22
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Throw
+- Wing Attack
 - Liquidation
-- Rock Smash
+- Low Sweep
 
 === TRAINER_MAY_RUSTBORO_MUDKIP ===
 Name: MAY
@@ -12214,11 +12274,11 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bounce
 - Play Rough
 
-Grovyle @ Berry Juice
+Floragato @ Berry Juice
 Level: 22
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Slam
+- Seed Bomb
+- Slash
 - Aerial Ace
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
@@ -13966,13 +14026,37 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Spinda
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wishiwashi @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hydro Pump
+- Double Edge
+- Ice Beam
+- Endeavor
 
-Spinda
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Scolipede @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Megahorn
+- Poison Jab
+- Rock Slide
+- Protect
+
+Cramorant @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dive
+- Reversal
+- Drill Peck
+- Icy Wind
+
+Toxtricity @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Boomburst
+- Overdrive
+- Poison Jab
+- Shift Gear
 
 === TRAINER_KIM_AND_IRIS ===
 Name: KIM & IRIS
@@ -14716,13 +14800,21 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Manectric @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Flamethrower
+- Ice Fang
+- Volt Switch
 
-Lombre
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Zebstrika @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wild Charge
+- High Horsepower
+- Trailblaze
+- Volt Switch
 
 === TRAINER_COBY ===
 Name: COBY
@@ -14733,13 +14825,29 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Skarmory
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skarmory @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Drill Peck
+- Steel Wing
+- Iron Defense
+- Body Press
 
-Swellow
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Swellow @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Brave Bird
+- Pursuit
+- U Turn
+- Facade
+
+Squakabilly @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Lash Out
+- Facade
+- Brave Bird
+- Quick Attack
 
 === TRAINER_LAWRENCE ===
 Name: LAWRENCE
@@ -15813,12 +15921,12 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Tornado
 - Round
 
-Combusken @ Berry Juice
+Crocalor @ Berry Juice
 Level: 22
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Slash
-- Flame Charge
+- Disarming Voice
+- Snarl
+- Incinerate
 
 === TRAINER_MAY_RUSTBORO_TORCHIC ===
 Name: MAY
@@ -15850,12 +15958,12 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Leaf Tornado
 - Round
 
-Marshtomp @ Berry Juice
+Quaxwell @ Berry Juice
 Level: 22
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Throw
+- Wing Attack
 - Liquidation
-- Rock Smash
+- Low Sweep
 
 === TRAINER_ROXANNE_2 ===
 Name: ROXANNE
