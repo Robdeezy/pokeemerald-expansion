@@ -5561,14 +5561,15 @@ u8 CanLearnTeachableMove(u16 species, u16 move)
 
 u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
 {
-    u16 learnedMoves[4];
+    u16 learnedMoves[MAX_MON_MOVES];
     u8 numMoves = 0;
     u16 species = GetMonData(mon, MON_DATA_SPECIES, 0);
     u8 level = GetMonData(mon, MON_DATA_LEVEL, 0);
     const struct LevelUpMove *learnset = GetSpeciesLevelUpLearnset(species);
-    u16 numEggMoves
-    u16 EggMoves
+    u16 eggSpecies;
+    const u16 *eggMoveLearnset;
     int i, j=0, k;
+
         // writes currently known moves
     for (i = 0; i < MAX_MON_MOVES; i++)
         learnedMoves[i] = GetMonData(mon, MON_DATA_MOVE1 + i, 0);
@@ -5577,32 +5578,29 @@ u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
 	if (FlagGet(FLAG_EGG_MOVE_TUTOR))
 	{
 		// Species to pull egg moves from.
-		species = GetBaseForm(species);
-
-		numEggMoves = GetEggMovesBySpecies(species, EggMoves);
+		eggSpecies = GetBaseForm(species);
+        eggMoveLearnset = GetSpeciesEggMoves(eggSpecies);
 
 		// for each entry in the mon's level up learnset:
-		for (i = 0; i < numEggMoves; i++)
+		for (i = 0; i < EGG_MOVES_ARRAY_COUNT; i++)
 		{
-			u16 moveLevel;
-
-            if (EggMoves[i].move == MOVE_UNAVAILABLE)
+            if (eggMoveLearnset[i] == MOVE_UNAVAILABLE)
 				break;
 
                 
             // and the mon doesn't know the move already
-            for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != (EggMoves[i].move); j++)
+            for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != eggMoveLearnset[i]; j++)
                 ;
 
             if (j == MAX_MON_MOVES)
             {
                 // and the move isn't already in the list of moves to learn
-                for (k = 0; k < numMoves && moves[k] != (learnset[i].move & LEVEL_UP_MOVE_ID); k++)
+                for (k = 0; k < numMoves && moves[k] != eggMoveLearnset[i]; k++)
                     ;
 
                 // add the move to the array
                 if (k == numMoves)
-                    moves[numMoves++] = learnset[i].move & LEVEL_UP_MOVE_ID;
+                    moves[numMoves++] = eggMoveLearnset[i];
             }
 			
 		}
@@ -5665,6 +5663,8 @@ u8 GetNumberOfRelearnableMoves(struct Pokemon *mon)
     u16 species = GetMonData(mon, MON_DATA_SPECIES_OR_EGG, 0);
     u8 level = GetMonData(mon, MON_DATA_LEVEL, 0);
     const struct LevelUpMove *learnset = GetSpeciesLevelUpLearnset(species);
+    u16 eggSpecies;
+    const u16 *eggMoveLearnset;
     int i, j=0, k;
     
 
@@ -5677,32 +5677,34 @@ u8 GetNumberOfRelearnableMoves(struct Pokemon *mon)
 	if (FlagGet(FLAG_EGG_MOVE_TUTOR))
 	{
 		// Species to pull egg moves from.
-		species = GetBaseForm(species);
+		eggSpecies = GetBaseForm(species);
+        eggMoveLearnset = GetSpeciesEggMoves(eggSpecies);
 
-		k = GetEggMovesArraySize() - 1;
-
-		// Here, j is being used as the offset into gEggMoves.
-		for (i = 0; i < k; i++)
-		{
-		if (gEggMoves[i] == species + EGG_MOVES_SPECIES_OFFSET)
-			{
-				j = i + 1;
-				break;
-			}
-		}
-    		// Validates the move not being learned already, as normal.
+		// for each entry in the mon's level up learnset:
 		for (i = 0; i < EGG_MOVES_ARRAY_COUNT; i++)
 		{
-		if (gEggMoves[j + i] > EGG_MOVES_SPECIES_OFFSET)
+            if (eggMoveLearnset[i] == MOVE_UNAVAILABLE)
 				break;
-		for (k = 0; k < numMoves && learnedMoves[k] != gEggMoves[j + i]; k++)
-						;
 
-        if (k == numMoves)
-				moves[numMoves++] = gEggMoves[j + i];
+                
+            // and the mon doesn't know the move already
+            for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != eggMoveLearnset[i]; j++)
+                ;
+
+            if (j == MAX_MON_MOVES)
+            {
+                // and the move isn't already in the list of moves to learn
+                for (k = 0; k < numMoves && moves[k] != eggMoveLearnset[i]; k++)
+                    ;
+
+                // add the move to the array
+                if (k == numMoves)
+                    moves[numMoves++] = eggMoveLearnset[i];
+            }
+			
 		}
 
-        		return numMoves;
+        return numMoves;
 	}
 	// Level up move tutor
 	else
