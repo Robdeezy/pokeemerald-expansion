@@ -2877,9 +2877,21 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Numel
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Talonflame @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Brave Bird
+- Flare Blitz
+- Upper Hand
+- Tailwind
+
+Centiskorch @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fire Lash
+- Lunge
+- Coil
+- Thunder Fang
 
 === TRAINER_STEVE_2 ===
 Name: STEVE
@@ -3444,9 +3456,29 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 19
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Grapploct @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Octazooka
+- Brick Break
+- Ice Punch
+- Taunt
+
+Pangoro @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Night Slash
+- Bullet Punch
+- Hammer Arm
+- Body Slam
+
+Bewear @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Superpower
+- Strength
+- Pain Split
+- Shadow Claw
 
 === TRAINER_NOB_2 ===
 Name: NOB
@@ -3775,10 +3807,23 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Check Bad Move
+Starting Status: GRASSY TERRAIN
 
-Numel
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Shiinotic @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Spore
+- Dazzling Gleam
+- Giga Drain
+- Sludge Bomb
+
+Magmortar @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Heat Wave
+- Hyper Voice
+- Thunderbolt
+- Overheat
 
 === TRAINER_JEFF ===
 Name: JEFF
@@ -3788,14 +3833,39 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Check Bad Move
+Starting Status: GRASSY TERRAIN
 
-Slugma
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Delphox @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Psychic
+- Psyshock
+- Flamethrower
+- Grass Knot
 
-Slugma
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Meganium @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Energy Ball
+- Grassy Glide
+- Knock Off
+
+Decidueye @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Spirit Shackle
+- Leaf Blade
+- U Turn
+- Brave Bird
+
+Emboar @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wild Charge
+- Head Smash
+- Flare Blitz
+- Trailblaze
 
 === TRAINER_AXLE ===
 Name: AXLE
@@ -3805,10 +3875,39 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Check Bad Move
+Starting Status: GRASSY TERRAIN
 
-Numel
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Typhlosion @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Lava Plume
+- Scorching Sands
+- Eruption
+- Wild Charge
+
+Charizard @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Dragon Pulse
+- Air Slash
+- Dragon Tail
+
+Arboliva @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Alluring Voice
+- Giga Drain
+- Earth Power
+- Substitute
+
+Dhelmise @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Phantom Force
+- Power Whip
+- Anchor shot
+- Brutal Swing
 
 === TRAINER_JACE ===
 Name: JACE
@@ -3818,10 +3917,31 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Check Bad Move
+Starting Status: GRASSY TERRAIN
 
-Slugma
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Incineroar @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fake Out
+- Darkest Lariat
+- Flare Blitz
+- Swagger
+
+Arcanine @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Extreme Speed
+- Play Rough
+- Flare Blitz
+- Close Combat
+
+Arcanine-Hisui @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Head Smash
+- Flare Blitz
+- Rock Slide
+- Close Combat
 
 === TRAINER_KEEGAN ===
 Name: KEEGAN
@@ -3831,10 +3951,47 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Check Bad Move
+Starting Status: GRASSY TERRAIN
 
-Slugma
-Level: 23
-IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
+Darmanitan @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Superpower
+- Flare Blitz
+- Belly Drum
+
+Talonflame @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Brave Bird
+- Flare Blitz
+- U Turn
+- Fly
+
+Scovillain @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Seed Bomb
+- Protect
+- Substitute
+
+Rillaboom @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Drum Beating
+- Grassy Glide
+- Knock Off
+- Drain Punch
+
+Sceptile @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Energy Ball
+- Dragon Pulse
+- Vacuum Wave
+- Grassy Glide
 
 === TRAINER_BERNIE_1 ===
 Name: BERNIE
@@ -3845,13 +4002,29 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slugma
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Castform @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Weather Ball
+- Thunderbolt
+- Ice Beam
+- Fire Blast
 
-Wingull
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Durant @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- X Scissor
+- Thunder Wave
+- Iron Head
+- Dig
+
+Heliolisk @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Solar Beam
+- Thunderbolt
+- Parabolic Charge
+- Weather Ball
 
 === TRAINER_BERNIE_2 ===
 Name: BERNIE
@@ -4029,13 +4202,37 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sunflora @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Solar Beam
+- Ingrain
+- Earth Power
+- Weather Ball
 
-Nuzleaf
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Leavanny @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Slash
+- Lunge
+- Poison Jab
+- Electroweb
+
+Wormadam Sandy @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Blast
+- Earthquake
+- Bug Bite
+- Sucker Punch
+
+Krookodile @ Berry Juice
+Level: 40
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Foul Play
+- Thunder Fang
+- Fire Fang
 
 === TRAINER_JUSTIN ===
 Name: JUSTIN
@@ -4059,13 +4256,21 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pinsir @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- X Scissor
+- Strength
+- Superpower
+- Rock Slide
 
-Taillow
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lucario @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Close Combat
+- Meteor Mash
+- Extreme Speed
+- Aura Sphere
 
 === TRAINER_AUTUMN ===
 Name: AUTUMN
@@ -4076,9 +4281,21 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Druddigon @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Claw
+- Iron Head
+- Superpower
+- Slash
+
+Drampa @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Pulse
+- Hyper Voice
+- Rock Slide
+- Icy Wind
 
 === TRAINER_TRAVIS ===
 Name: TRAVIS
@@ -5284,38 +5501,55 @@ Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Starting Status: GRASSY TERRAIN
 
-Numel
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Take Down
-- Magnitude
-- Sunny Day
+Ninetales @ Berry Juice
+Level: 40
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Psyshock
+- Solar Beam
+- Scorching Sands
 
-Slugma
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Smog
-- Light Screen
-- Sunny Day
+Venusaur @ Berry Juice
+Level: 40
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sludge Bomb
+- Solar Beam
+- Frenzy Plant
+- Weather Ball
 
-Camerupt
-Level: 26
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Tackle
-- Sunny Day
-- Attract
+Serperior @ Berry Juice
+Level: 40
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Leaf Storm
+- Weather Ball
+- Glare
+- Dragon Tail
 
-Torkoal @ White Herb
-Level: 29
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Sunny Day
-- Body Slam
-- Attract
+Typhlosion-Hisui @ Berry Juice
+Level: 40
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Infernal Parade
+- Solar Beam
+- Flamethrower
+- Scorching Sands
+
+Zarude @ Berry Juice
+Level: 40
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Whip
+- Crunch
+- Grassy Glide
+- Close Combat
+
+Houndoom @ Berry Juice
+Level: 40
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Dark Pulse
+- Sludge Bomb
+- Solar Beam
 
 === TRAINER_NORMAN_1 ===
 Name: NORMAN
@@ -6995,17 +7229,37 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Swanna
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rain Dance
+- Alluring Voice
+- Brave Bird
+- Tailwind
 
-Goldeen
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sealeo @ Eviolite
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Surf
+- Ice Beam
+- Encore
+- Whirlpool
 
-Barboach
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Araquanid 
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Liquidation
+- Leech Life
+- Sticky Web
+- Poison Jab
+
+Simisear 
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Overheat
+- Solar Beam
+- Flame Charge
+- Focus Blast
 
 === TRAINER_ELLIOT_1 ===
 Name: ELLIOT
@@ -7113,9 +7367,32 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Barboach
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Victreebel
+Ability: Chlorophyll
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Solar Beam
+- Knock Off
+- Leech Life
+- Poison Jab
+
+Tangrowth
+Ability: Chlorophyll
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Solar Beam
+- Sludge Bomb
+- Ancient POWER
+- Stun Spore
+
+Tsareena
+Ability: Leaf Guard 
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Solar Blade
+- Play Rough
+- Acrobatics
+- High Jump Kick
 
 === TRAINER_BARNY ===
 Name: BARNY
@@ -8772,13 +9049,37 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Xatu @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Air Slash
+- Psychic
+- Confuse Ray
+- Future Sight
 
-Makuhita
-Level: 18
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Musharna @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Psychic Terrain
+- Moonblast
+- Psychic
+- Yawn
+
+Meowstic @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Psychic
+- Magical Leaf
+- Fake Out
+- Sucker Punch
+
+Orbeetle @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Bug Buzz
+- After You
+- Psychic
+- Giga Drain
 
 === TRAINER_CORA ===
 Name: CORA
@@ -8922,13 +9223,14 @@ Pic: Parasol Lady
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Smart Switching / Omniscient
 
-Roselia
+Vulpix
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wailmer
+Poliwag  
+Ability: Water Absorb   
 Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9553,13 +9855,37 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Shuckle @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sticky Web
+- Rock Slide
+- Skitter Smack
+- Steel Roller
 
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Corsola @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Weather Ball
+- Power Gem
+- Earth Power
+- Scald
+
+Minior @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ancient Power
+- Air Slash
+- Solar Beam
+- Shell Smash
+
+Corsola-Galar
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Weather Ball
+- Scald
+- Shadow Ball
+- Giga Drain
 
 === TRAINER_MARTHA ===
 Name: MARTHA
@@ -9587,17 +9913,21 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Shroomish
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mr. Mime @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Psychic
+- Dazzling Gleam
+- Wide Guard
+- Magical Leaf
 
-Oddish
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Swablu
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mr. Mime-Galar @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Shard
+- Freeze Dry
+- Psychic
+- Dazzling Gleam
 
 === TRAINER_CEDRIC ===
 Name: CEDRIC
@@ -10222,10 +10552,31 @@ Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Check Bad Move
+Starting Status: GRASSY TERRAIN
 
-Numel
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Amoonguss @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rage Powder
+- Spore
+- Giga Drain
+- Sludge Bomb
+
+Chesnaught @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Spiky Shield
+- Hammer Arm
+- Wood Hammer
+- Body Slam
+
+Sinistcha @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Matcha Gotcha
+- Shadow Ball
+- Scald
+- Phantom Force
 
 === TRAINER_ANNIKA ===
 Name: ANNIKA
@@ -10431,13 +10782,21 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Zangoose
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Zangoose @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Facade
+- Power Trip
+- Swords Dance
+- Taunt
 
-Seviper
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Seviper @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Poison Jab
+- Glare
+- Ice Fang
+- Thunder Fang
 
 === TRAINER_TABITHA_MOSSDEEP ===
 Name: TABITHA
@@ -11702,9 +12061,29 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Magnemite
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ambipom @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fake Out
+- Thief
+- Low Sweep
+- Giga Impact
+
+Purugly @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fake Out
+- Body Slam
+- Play Rough
+- Sucker Punch
+
+Skuntank @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Gunk Shot
+- Night Slash
+- Sucker Punch
+- Flamethrower
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_5 ===
 Name: GRUNT
@@ -11958,9 +12337,21 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Zubat
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Linoone-Galar @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Night Slash
+- Double Edge
+- Icy Wind
+- Taunt
+
+Absol @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Knock Off
+- Play Rough
+- Sucker Punch
+- Double Team
 
 === TRAINER_CLARENCE ===
 Name: CLARENCE
@@ -12252,21 +12643,45 @@ Music: Magma
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Numel
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Umbreon @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Crunch
+- Alluring Voice
+- Shadow Ball
+- Moonlight
 
-Poochyena
-Level: 20
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Jolteon @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Alluring Voice
+- Shadow Ball
+- Trailblaze
 
-Numel
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Glaceon @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Beam
+- Alluring Voice
+- Freeze Dry
+- Chilling Water
 
-Zubat
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Sylveon @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Moonblast
+- Magical Leaf
+- Psychic
+- Misty Explosion
+
+Flareon @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flare Blitz
+- Facade
+- Quick Attack
+- Trailblaze
 
 === TRAINER_JONATHAN ===
 Name: JONATHAN
@@ -12392,17 +12807,53 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Mightyena
-Level: 24
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Metang @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Meteor Mash
+- Zen Headbutt
+- Protect
 
-Zubat
-Level: 24
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Flygon @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- First Impression
+- Heat Wave
+- Protect
 
-Camerupt
-Level: 25
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Swampert @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Muddy Water
+- Icy Wind
+- Protect
+
+Golem-Alola @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Explosion
+- Earthquake
+- Rock Slide
+- Protect
+
+Camerupt @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Rock Slide
+- Heat Wave
+- Protect
+
+Entei @ Berry Juice
+Level: 40
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flare Blitz
+- Earthquake
+- Eruption
+- Protect
 
 === TRAINER_TIANA ===
 Name: TIANA
@@ -12984,13 +13435,29 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lycanroc-Midnight @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fire Punch
+- Trailblaze
+- Rock Slide
+- Accelerock
 
-Machop
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lycanroc-Dusk @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Knock Off
+- Iron Head
+- Play Rough
+- Accelerock
+
+Lycanroc @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Accelerock
+- Crunch
+- Stone Edge
+- Sucker Punch
 
 === TRAINER_LUCAS_1 ===
 Name: LUCAS
@@ -13001,13 +13468,21 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clodsire @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Wave
+- Rock Tomb
+- Stomping Tantrum
+- Iron Head
 
-Numel
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gogoat @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Horn Leech
+- Aerial Ace
+- Rock Slide
+- Milk Drink
 
 === TRAINER_ALAN ===
 Name: ALAN
@@ -13062,13 +13537,21 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Geodude
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Fearow @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Drill Run
+- Drill Peck
+- Steel Wing
+- Quick Attack
 
-Baltoy
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sigilyph @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Air Slash
+- Psychic
+- Icy Wind
+- Swift
 
 === TRAINER_LUCAS_2 ===
 Name: LUCAS
@@ -13378,14 +13861,31 @@ Music: Cool
 Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
+Starting Status: GRASSY TERRAIN
 
-Kecleon
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Kecleon @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Flamethrower
-- Fury Swipes
-- Feint Attack
-- Bind
+- Iron Tail
+- Shadow Sneak
+- Drain Punch
+
+Lurantis @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Leaf Blade
+- Superpower
+- Leech Life
+- Leaf Storm
+
+Salazzle @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Flamethrower
+- Dragon Pulse
+- Thunder Wave
 
 === TRAINER_VIVIAN ===
 Name: VIVIAN
@@ -13425,14 +13925,47 @@ Gender: Female
 Music: Intense
 Double Battle: No
 AI: Check Bad Move
+Starting Status: GRASSY TERRAIN
 
-Meditite
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
-- Detect
-- Confusion
-- Fire Punch
+Torkoal @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Superpower
+- Flare Blitz
+- Belly Drum
+
+Tangrowth @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Giga Drain
+- Ancient Power
+- Sludge Bomb
+- Solar Beam
+
+Leafeon @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Leaf Blade
+- Grassy Glide
+- Facade
+- Aerial Ace
+
+Rotom-Heat @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Discharge
+- Overheat
+- Volt Switch
+- Shadow Ball
+
+Toedscruel @ Berry Juice
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earth Power
+- Giga Drain
+- Dazzling Gleam
+- Flash Cannon
 
 === TRAINER_HIDEO ===
 Name: HIDEO
@@ -14171,21 +14704,37 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Roselia
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Growth
-- Stun Spore
-- Mega Drain
-- Leech Seed
+Carracosta @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Wide Guard
+- Shell Smash
 
-Graveler
-Level: 20
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Defense Curl
-- Rollout
-- Mud Sport
-- Rock Throw
+Archeops @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dual Wingbeat
+- Head Smash
+- Dragon Claw
+- Crunch
+
+Scyther @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dual Wingbeat
+- Air Slash
+- X Scissor
+- Brick Break
+
+Togetic @ Berry Juice
+Level: 37
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dazzling Gleam
+- Air Slash
+- Follow Me
+- Metronome
 
 === TRAINER_MEL_AND_PAUL ===
 Name: MEL & PAUL
@@ -15005,13 +15554,21 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacruel @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Wave
+- Surf
+- Acid Armor
+- Confuse Ray
 
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Relicanth @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ancient Power
+- Head Smash
+- Double Edge
+- Aqua Tail
 
 === TRAINER_KAI ===
 Name: KAI
@@ -15022,9 +15579,22 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Barboach
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Maractus 
+Ability: Storm Drain
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Spiky Shield
+- Solar Beam
+- Poison Jab
+- Weather Ball
+
+Tatsugiri 
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Surf
+- Dragon Pulse
+- Icy Wind
+- Dragon Cheer
 
 === TRAINER_CHARLOTTE ===
 Name: CHARLOTTE
@@ -15035,9 +15605,29 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Nuzleaf
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Arcanine
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Heat Wave
+- Solar Beam
+- Substitute
+- Thunder Fang
+
+Oricorio Baile 
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Revelation Dance
+- Air Slash
+- U Turn
+- Trailblaze
+
+Ceruledge 
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Lava Plume
+- Bitter Blade
+- Psycho Cut
+- Shadow Claw
 
 === TRAINER_DEANDRE ===
 Name: DEANDRE
@@ -15651,13 +16241,21 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Corviknight @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Steel Wing
+- Drill Peck
+- Swagger
+- Substitute
 
-Spoink
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tinkaton @ Berry Juice
+Level: 38
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Gigaton Hammer
+- Play Rough
+- Fake Out
+- Knock Off
 
 === TRAINER_DEVAN ===
 Name: DEVAN
@@ -18819,7 +19417,8 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Flip Turn
 
 Skeledirge  
-Ability: Unaware  
+Ability: Unaware
+Level: 39   
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe  
 - Alluring Voice  
 - Shadow Ball  
@@ -19004,7 +19603,8 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Flip Turn
 
 Skeledirge  
-Ability: Unaware  
+Ability: Unaware
+Level: 39   
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe  
 - Alluring Voice  
 - Shadow Ball  

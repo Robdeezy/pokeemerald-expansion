@@ -209,14 +209,14 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
-      "x": 25,
-      "y": 6,
+      "x": 19,
+      "y": 21,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_sight_or_berry_tree_id": "5",
       "script": "Route114_EventScript_Nolan",
       "flag": "0"
     },
@@ -368,7 +368,7 @@
       "x": 28,
       "y": 18,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -415,7 +415,132 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "weather",
+      "x": 39,
+      "y": 9,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 39,
+      "y": 10,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 28,
+      "y": 13,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 28,
+      "y": 14,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 28,
+      "y": 12,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 28,
+      "y": 6,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 28,
+      "y": 7,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 28,
+      "y": 8,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 28,
+      "y": 10,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 28,
+      "y": 11,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 28,
+      "y": 9,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 8,
+      "y": 67,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 9,
+      "y": 67,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 10,
+      "y": 67,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
+      "x": 12,
+      "y": 70,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 12,
+      "y": 71,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 12,
+      "y": 72,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    },
+    {
+      "type": "weather",
+      "x": 12,
+      "y": 73,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_DROUGHT"
+    }
   ],
   "bg_events": [
     {

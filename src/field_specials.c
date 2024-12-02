@@ -1539,6 +1539,12 @@ bool8 FoundBlackGlasses(void)
     return FlagGet(FLAG_HIDDEN_ITEM_ROUTE_116_BLACK_GLASSES);
 }
 
+void SetRoute114Weather(void)
+{
+    if (IsMapTypeOutdoors(GetLastUsedWarpMapType()) != TRUE)
+        SetSavedWeather(WEATHER_DROUGHT);
+}
+
 void SetRoute119Weather(void)
 {
     if (IsMapTypeOutdoors(GetLastUsedWarpMapType()) != TRUE)
