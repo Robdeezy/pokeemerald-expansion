@@ -75,7 +75,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_BURIED",
-      "trainer_sight_or_berry_tree_id": "1",
+      "trainer_sight_or_berry_tree_id": "5",
       "script": "LavaridgeTown_Gym_1F_EventScript_Danielle",
       "flag": "0"
     },
@@ -120,7 +120,7 @@
       "y": 14,
       "elevation": 3,
       "dest_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
-      "dest_warp_id": "3"
+      "dest_warp_id": "2"
     },
     {
       "x": 5,
@@ -148,7 +148,7 @@
       "y": 14,
       "elevation": 3,
       "dest_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
-      "dest_warp_id": "8"
+      "dest_warp_id": "5"
     },
     {
       "x": 0,
@@ -169,7 +169,7 @@
       "y": 4,
       "elevation": 3,
       "dest_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
-      "dest_warp_id": "11"
+      "dest_warp_id": "7"
     },
     {
       "x": 5,
@@ -232,7 +232,7 @@
       "y": 12,
       "elevation": 3,
       "dest_map": "MAP_LAVARIDGE_TOWN_GYM_B1F",
-      "dest_warp_id": "23"
+      "dest_warp_id": "18"
     },
     {
       "x": 15,

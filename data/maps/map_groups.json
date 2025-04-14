@@ -95,8 +95,7 @@
     "Underwater_Route125",
     "Alleyinbetween",
     "ScarletGrotto",
-    "VioletCanyon",
-    "LegendCove6F"
+    "VioletCanyon"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -436,13 +435,7 @@
     "MeteorFalls_StevensCave",
     "LegendCove1F",
     "LegendCove2F",
-    "LegendCove3F",
-    "LegendCove4F",
-    "LegendCove5F",
-    "LegendCove7F",
-    "LegendCove8F",
-    "LegendCove9F",
-    "LegendCove10F"
+    "LegendCove3F"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

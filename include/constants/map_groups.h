@@ -66,7 +66,6 @@
 #define MAP_ALLEYINBETWEEN      (57 | (0 << 8))
 #define MAP_SCARLET_GROTTO      (58 | (0 << 8))
 #define MAP_VIOLET_CANYON       (59 | (0 << 8))
-#define MAP_LEGEND_COVE6F       (60 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
@@ -407,12 +406,6 @@
 #define MAP_LEGEND_COVE1F                            (108 | (24 << 8))
 #define MAP_LEGEND_COVE2F                            (109 | (24 << 8))
 #define MAP_LEGEND_COVE3F                            (110 | (24 << 8))
-#define MAP_LEGEND_COVE4F                            (111 | (24 << 8))
-#define MAP_LEGEND_COVE5F                            (112 | (24 << 8))
-#define MAP_LEGEND_COVE7F                            (113 | (24 << 8))
-#define MAP_LEGEND_COVE8F                            (114 | (24 << 8))
-#define MAP_LEGEND_COVE9F                            (115 | (24 << 8))
-#define MAP_LEGEND_COVE10F                           (116 | (24 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (25 << 8))

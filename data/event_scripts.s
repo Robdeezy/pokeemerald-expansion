@@ -1087,17 +1087,3 @@ EventScript_VsSeekerChargingDone::
 
 	.include "data/maps/LegendCove3F/scripts.inc"
 
-	.include "data/maps/LegendCove4F/scripts.inc"
-
-	.include "data/maps/LegendCove5F/scripts.inc"
-
-
-	.include "data/maps/LegendCove6F/scripts.inc"
-
-	.include "data/maps/LegendCove7F/scripts.inc"
-
-	.include "data/maps/LegendCove8F/scripts.inc"
-
-	.include "data/maps/LegendCove9F/scripts.inc"
-
-	.include "data/maps/LegendCove10F/scripts.inc"

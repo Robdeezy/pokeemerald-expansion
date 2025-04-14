@@ -867,13 +867,29 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash
-Level: 23
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Runerigus @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Destiny Bond
+- Shadow Ball
+- Rock Slide
+- Toxic Spikes
+
+Probopass @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Tri Attack
+- Power Gem
+- Dazzling Gleam
+- Head Smash
+
+Garchomp @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Claw
+- Earthquake
+- Fire Fang
+- Aerial Ace
 
 === TRAINER_CHIP ===
 Name: CHIP
@@ -1389,12 +1405,35 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Swellow
-Level: 26
+Cyclizar @ Berry Juice
+Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Quick Attack
-- Agility
-- Wing Attack
+- Shed Tail
+- Dragon Claw
+- Double Edge
+- Fire Fang
+
+Gengar @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Sludge Wave
+- Dark Pulse
+- Dazzling Gleam
+
+Ambipom @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Last Resort
+
+Froslass @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ice Beam
+- Thunderbolt
+- Shadow Ball
+- Psychic
 
 === TRAINER_PARKER ===
 Name: PARKER
@@ -1406,12 +1445,37 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda
-Level: 26
+Spinda @ Berry Juice
+Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Teeter Dance
-- Dizzy Punch
-- Focus Punch
+- Flail
+- Attract
+- Fake Out
+
+Palossand @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Confuse Ray
+- Shadow Ball
+- Giga Drain
+- Shore Up
+
+Chatot @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Chatter
+- Taunt
+- Hyper Voice
+- Facade
+
+Gourgeist @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Confuse Ray
+- Pain Split
+- Shadow Sneak
+- Rock Slide
 
 === TRAINER_GEORGE ===
 Name: GEORGE
@@ -1423,12 +1487,37 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Slakoth @ Sitrus Berry
-Level: 26
+Skeledirge @ Berry Juice
+Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Slack Off
-- Counter
+- Torch Song
 - Shadow Ball
+- Roar
+- Slack Off
+
+Chansey @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Metronome
+- Thunder Wave
+- Dazzling Gleam
+- Soft Boiled
+
+Cursola @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Strength Sap
+- Curse
+- Rest
+- Destiny Bond
+
+Toucannon @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Drill Peck
+- Rock Blast
+- Bullet Seed
+- Roost
 
 === TRAINER_BERKE ===
 Name: BERKE
@@ -1440,11 +1529,37 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Vigoroth
-Level: 26
+SPECIES_INDEEDEE_MALE @ Berry Juice
+Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Energy
+- Stored Power
+- Calm Mind
+- Magical Leaf
+- Dazzling Gleam
+
+Polteageist @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Giga Drain
+- Psyshock
+- Nasty Plot
+
+Mimikyu @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Sneak
+- Play Rough
+- Shadow Claw
 - Slash
+
+Ursaluna-Bloodmoon @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Moonblast
+- Blood Moon
+- Earth Power
+- Focus Blast
 
 === TRAINER_BRAXTON ===
 Name: BRAXTON
@@ -1800,11 +1915,36 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Delcatty
-Level: 26
+Dusknoir @ Berry Juice
+Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Feint Attack
-- Shock Wave
+- Fire Punch
+- Ice Punch
+- Thunder Punch
+- Shadow Claw
+
+Swellow @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Facade
+- Brave Bird
+- Quick Attack
+- Reversal
+
+Dudunsparce @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Boomburst
+- Hurricane
+- Roost
+
+Golurk @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dynamic Punch
+- Earthquake
+- Zen Headbutt
+- Rock Slide
 
 === TRAINER_ALEXIA ===
 Name: ALEXIA
@@ -1816,12 +1956,37 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wigglytuff
-Level: 26
+Arboliva @ Berry Juice
+Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Defense Curl
-- Double Edge
-- Shadow Ball
+- Leech Seed
+- Substitute
+- Giga Drain
+- Protect
+
+Marowak-Alola @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Bone
+- Stomping Tantrum
+- Flare Blitz
+- Thunder Punch
+
+Blissey @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Soft Boiled
+- Seismic Toss
+- Chilling Water
+- Thunder Wave
+
+Dusclops @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Poltergeist
+- Leech Life
+- Brick Break
+- Payback
 
 === TRAINER_JODY ===
 Name: JODY
@@ -1833,11 +1998,37 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
-Zangoose
-Level: 26
+Brambleghast @ Berry Juice
+Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Slash
+- Power Whip
+- Phantom Force
+- Shadow Sneak
+- Spikes
+
+Ursaluna @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Headlong Rush
+- Play Rough
+- Trailblaze
+- Facade
+
+Basculegion @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crunch
+- Head Smash
+- Wave Crash
+- Flail
+
+Bewear @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Double Edge
+- Superpower
+- Ice Punch
+- Payback
 
 === TRAINER_WENDY ===
 Name: WENDY
@@ -3582,9 +3773,29 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 19
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Stoutland @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Ice Fang
+- Fire Fang
+- Thunder Fang
+- Giga Impact
+
+Dracozolt @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Pluck
+- Bolt Beak
+- Dragon Rush
+- Slam
+
+Hitmontop @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sucker Punch
+- Triple Kick
+- Triple Axel
+- Coaching
 
 === TRAINER_ATSUSHI ===
 Name: ATSUSHI
@@ -4103,13 +4314,21 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Dig
-- Sand Attack
-- Poison Sting
-- Slash
+Nidoking @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earth Power
+- Sludge Wave
+- Icy Wind
+- Flamethrower
+
+Steelix @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Thunder Fang
+- Fire Fang
+- Rock Slide
+- Earthquake
 
 === TRAINER_BEAU ===
 Name: BEAU
@@ -4120,29 +4339,45 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rapid Spin
-- Mud Slap
-- Psybeam
-- Rock Tomb
+Heliolisk @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Volt Switch
+- Quick Attack
+- Weather Ball
+- Surf
 
-Sandshrew
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Sting
-- Sand Attack
-- Scratch
-- Dig
+Gliscor @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- U Turn
+- Knock Off
+- Crabhammer
 
-Baltoy
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rapid Spin
-- Mud Slap
-- Psybeam
-- Rock Tomb
+Cacturne @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Spiky Shield
+- Destiny Bond
+- Energy Ball
+- Sucker Punch
+
+Dugtrio @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sucker Punch
+- Earthquake
+- Stone Edge
+- Sludge Bomb
+
+Sandslash @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Gyro Ball
+- Aerial Ace
+- Brick Break
 
 === TRAINER_LARRY ===
 Name: LARRY
@@ -5543,7 +5778,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Grassy Glide
 - Close Combat
 
-Houndoom @ Berry Juice
+Houndoom @ Houndoominite
 Level: 40
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
@@ -5561,37 +5796,53 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
+Obstagoon @ Berry Juice
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sucker Punch
 - Facade
-- Encore
+- Ice Punch
+- Obstruct
 
-Vigoroth
-Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Facade
-- Encore
-- Feint Attack
+Annihilape @ Berry Juice
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Rage Fist
+- Close Combat
+- Seed Bomb
+- Swagger
 
-Linoone
-Level: 29
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
+Drifblim @ Berry Juice
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Air Slash
+- Shadow Ball
+- Thunderbolt
+- Explosion
 
-Slaking @ Sitrus Berry
-Level: 31
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
-- Feint Attack
+Miltank @ Berry Juice
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Play Rough
+- Body Slam
+- Curse
+- Milk Drink
+
+Pecharunt @ Berry Juice
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Malignant Chain
+- Shadow Ball
+- Mean Look
+- Destiny Bond
+
+Kangaskhan @ Kangaskhanite
+Level: 50
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Power Up Punch
+- Fake Out
+- Bulldoze
+- Thunder Punch
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
@@ -9764,21 +10015,21 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Dig
-- Sand Attack
-- Poison Sting
-- Slash
+Nidoqueen @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earth Power
+- Sludge Wave
+- Thunderbolt
+- Shadow Ball
 
-Baltoy
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rapid Spin
-- Mud Slap
-- Psybeam
-- Rock Tomb
+Claydol @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Explosion
+- Psychic
+- Shadow Ball
+- Grass Knot
 
 === TRAINER_BECKY ===
 Name: BECKY
@@ -9789,21 +10040,21 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sand Attack
-- Poison Sting
-- Slash
-- Dig
+Lycanroc @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Double Edge
+- Close Combat
+- Stone Edge
+- Stealth Rock
 
-Marill
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rollout
-- Bubble Beam
-- Tail Whip
-- Defense Curl
+Houndstone @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Crunch
+- Play Rough
+- Phantom Force
+- Roar
 
 === TRAINER_CAROL ===
 Name: CAROL
@@ -16081,13 +16332,29 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gastrodon @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earth Power
+- Rest
+- Icy Wind
+- Sleep Talk
 
-Lombre
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Diggersby @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Super Fang
+- Bounce
+- Earthquake
+- Giga Impact
+
+Mudsdale @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Mega Kick
+- Heavy Slam
+- High Horsepower
+- Lash Out
 
 === TRAINER_BRYAN ===
 Name: BRYAN
@@ -16098,13 +16365,21 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandshrew
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Diggersby @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Super Fang
+- Bounce
+- Earthquake
+- Giga Impact
 
-Sandslash
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mudsdale @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Mega Kick
+- Heavy Slam
+- High Horsepower
+- Lash Out
 
 === TRAINER_BRANDEN ===
 Name: BRANDEN
@@ -16115,13 +16390,21 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Taillow
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cofagrigus @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Destiny Bond
+- Shadow Ball
+- Rock Slide
+- Energy Ball
 
-Nuzleaf
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Excadrill @ Berry Juice
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Smart Strike
+- Swords Dance
+- Drill Run
+- Rock Slide
 
 === TRAINER_BRYANT ===
 Name: BRYANT
