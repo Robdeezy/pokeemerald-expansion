@@ -34,7 +34,6 @@ static void ClearDaycareMonMail(struct DaycareMail *mail);
 static void SetInitialEggData(struct Pokemon *mon, u16 species, struct DayCare *daycare);
 static void DaycarePrintMonInfo(u8 windowId, u32 daycareSlotId, u8 y);
 static u8 ModifyBreedingScoreForOvalCharm(u8 score);
-static u16 GetEggSpecies(u16 species);
 static u8 GetEggMoves(struct Pokemon *pokemon, u16 *eggMoves);
 
 // RAM buffers used to assist with BuildEggMoveset()
@@ -990,10 +989,7 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
 {
     u32 i;
     u32 species[DAYCARE_MON_COUNT];
-    u32 eggSpecies, parentSpecies;
-    bool32 hasMotherEverstone, hasFatherEverstone, motherIsForeign, fatherIsForeign;
-    bool32 motherEggSpecies, fatherEggSpecies;
-    u32 currentRegion = GetCurrentRegion();
+    u32 eggSpecies;
 
     for (i = 0; i < DAYCARE_MON_COUNT; i++)
     {
@@ -1010,24 +1006,7 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
         }
     }
 
-    motherEggSpecies = GetEggSpecies(species[parentSlots[0]]);
-    fatherEggSpecies = GetEggSpecies(species[parentSlots[1]]);
-    hasMotherEverstone = ItemId_GetHoldEffect(GetBoxMonData(&daycare->mons[parentSlots[0]].mon, MON_DATA_HELD_ITEM)) == HOLD_EFFECT_PREVENT_EVOLVE;
-    hasFatherEverstone = ItemId_GetHoldEffect(GetBoxMonData(&daycare->mons[parentSlots[1]].mon, MON_DATA_HELD_ITEM)) == HOLD_EFFECT_PREVENT_EVOLVE;
-    motherIsForeign = IsSpeciesForeignRegionalForm(motherEggSpecies, currentRegion);
-    fatherIsForeign = IsSpeciesForeignRegionalForm(fatherEggSpecies, currentRegion);
-
-    if (hasMotherEverstone)
-        parentSpecies = motherEggSpecies;
-    else if (fatherIsForeign && hasFatherEverstone)
-        parentSpecies = fatherEggSpecies;
-    else if (motherIsForeign)
-        parentSpecies = GetRegionalFormByRegion(motherEggSpecies, currentRegion);
-    else
-        parentSpecies = motherEggSpecies;
-
-    eggSpecies = GetEggSpecies(parentSpecies);
-
+    eggSpecies = GetBaseForm(species[parentSlots[0]]);
     if (eggSpecies == SPECIES_NIDORAN_F && daycare->offspringPersonality & EGG_GENDER_MALE)
         eggSpecies = SPECIES_NIDORAN_M;
     else if (eggSpecies == SPECIES_ILLUMISE && daycare->offspringPersonality & EGG_GENDER_MALE)
