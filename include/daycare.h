@@ -34,6 +34,9 @@ void ShowDaycareLevelMenu(void);
 void ChooseSendDaycareMon(void);
 u8 GetEggMovesBySpecies(u16 species, u16 *eggMoves);
 bool8 SpeciesCanLearnEggMove(u16 species, u16 move);
+void StorePokemonInDaycare(struct Pokemon *mon, struct DaycareMon *daycareMon);
+u8 GetEggMoves(struct Pokemon *pokemon, u16 *eggMoves);
+
 u16 GetBaseForm(u16 species);
 u16 GetEggMovesArraySize(void);
 // to support gEggMoves being referenced by pokemon.c
